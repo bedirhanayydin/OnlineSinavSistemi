@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9F4FA"
+    tools:context=".SoruEkle">
+
+
+    <Spinner
+        android:id="@+id/spinner_ders"
+        android:layout_width="331dp"
+        android:layout_height="39dp"
+        android:layout_above="@+id/textView19"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="-53dp"
+        android:scrollbarSize="25dp" />
+
+    <TextView
+        android:id="@+id/spinner_ders"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_gravity="start"
+        android:layout_marginBottom="-50dp"
+        android:text="Ders:"
+        android:textColor="@color/design_default_color_error"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="Soru"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner_zorluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_ekle_soru"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:scrollbarSize="25dp"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_ekle_soru"
+        android:layout_alignStart="@+id/tb_soru_dogru_cevap"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:text="Zorluk:"
+        android:textColor="@color/design_default_color_error"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:layout_alignLeft="@+id/tb_soru_dogru_cevap"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="start" />
+
+
+    <Button
+        android:id="@+id/btn_soru_ekle"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/tb_soru_cevap3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="48dp"
+        android:text="ekle"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_zorluk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Doğru Cevap"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textColor="@color/design_default_color_error"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:layout_gravity="start" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_soru_dogru_cevap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Diğer Şıklar"
+        android:textColor="@color/design_default_color_error"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:gravity="start" />
+
+    <EditText
+        android:id="@+id/tb_soru_dogru_cevap"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="●"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_marginLeft="37dp" />
+
+    <EditText
+        android:id="@+id/tb_soru_cevap1"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="●"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/tb_soru_cevap2"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_soru_cevap1"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="●"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_marginLeft="37dp" />
+
+    <EditText
+        android:id="@+id/tb_soru_cevap3"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_soru_cevap2"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="●"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_marginLeft="37dp" />
+
+    <EditText
+        android:id="@+id/tb_ekle_soru"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="●"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_marginRight="1dp" />
+
+
+</RelativeLayout>

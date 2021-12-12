@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#250C3A"
+    tools:context=".Soru_Listele_Sil"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+    <Spinner
+        android:id="@+id/spinnerders"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <Spinner
+        android:id="@+id/spinnerzorluk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/hoca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:ems="10"
+        android:hint="Hoca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/soru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:ems="10"
+        android:hint="Soru"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/cevap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doğru Cevap"
+        android:paddingLeft="15dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/sik1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şık 1"
+        android:paddingLeft="15dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/sik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şık 2"
+        android:paddingLeft="15dp"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/sik3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şık 3"
+        android:paddingLeft="15dp"
+        android:inputType="textPersonName" />
+
+
+    <ListView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arkaplan"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/silid"
+        android:title="Sil"
+        android:icon="@drawable/delete_foreground"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/list"
+        android:title="Listele"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/geriid"
+        android:title="Sil"
+        android:icon="@drawable/ic_launcher_geri_foreground"
+        app:showAsAction="always"
+        />
+
+</menu>

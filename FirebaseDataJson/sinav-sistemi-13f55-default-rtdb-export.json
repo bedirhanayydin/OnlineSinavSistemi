@@ -1,0 +1,338 @@
+{
+  "Bilgisayar Programlama" : {
+    "kolay_sorular" : {
+      "bfcb356b-580a-4b9c-8259-13e1fd490d9b" : {
+        "ders" : "Bilgisayar Programlama",
+        "ekleyenhocamail" : "denemetest12340@gmail.com",
+        "soru_id" : "bfcb356b-580a-4b9c-8259-13e1fd490d9b",
+        "tb_ekle_soru" : "BU BİR DENEME SORUSUDUR",
+        "tb_soru_cevap1" : "deneme",
+        "tb_soru_cevap2" : "denemeb",
+        "tb_soru_cevap3" : "denemec",
+        "tb_soru_dogru_cevap" : "Denemecevap"
+      }
+    }
+  },
+  "Veri Yapıları" : {
+    "kolay_sorular" : {
+      "0383f710-be42-49bf-8b41-7ff49948e67d" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "0383f710-be42-49bf-8b41-7ff49948e67d",
+        "tb_ekle_soru" : " sorum",
+        "tb_soru_cevap1" : "s",
+        "tb_soru_cevap2" : "so",
+        "tb_soru_cevap3" : "soru",
+        "tb_soru_dogru_cevap" : "dogru"
+      },
+      "08a4d9be-4a62-4713-8000-30e7c8eb09d1" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "08a4d9be-4a62-4713-8000-30e7c8eb09d1",
+        "tb_ekle_soru" : "kolaysorum",
+        "tb_soru_cevap1" : "dddd",
+        "tb_soru_cevap2" : "dd",
+        "tb_soru_cevap3" : "d",
+        "tb_soru_dogru_cevap" : "dogrudeneme"
+      },
+      "13ec3371-f696-4867-b913-7232663e4224" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "13ec3371-f696-4867-b913-7232663e4224",
+        "tb_ekle_soru" : " kolays",
+        "tb_soru_cevap1" : "sa ",
+        "tb_soru_cevap2" : "sad ",
+        "tb_soru_cevap3" : "sada ",
+        "tb_soru_dogru_cevap" : " DOGRU"
+      },
+      "141c1943-6956-4d63-abbb-87217fda0326" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "141c1943-6956-4d63-abbb-87217fda0326",
+        "tb_ekle_soru" : " kolay",
+        "tb_soru_cevap1" : "asdas2d ",
+        "tb_soru_cevap2" : "asdad ",
+        "tb_soru_cevap3" : "asdasd ",
+        "tb_soru_dogru_cevap" : " dogru"
+      },
+      "329a20ec-1f6a-4176-ac5a-8d7c864c8d10" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "329a20ec-1f6a-4176-ac5a-8d7c864c8d10",
+        "tb_ekle_soru" : " kolay",
+        "tb_soru_cevap1" : "te",
+        "tb_soru_cevap2" : "tes",
+        "tb_soru_cevap3" : "test",
+        "tb_soru_dogru_cevap" : " dogrucevap"
+      },
+      "b94f549c-89e0-40d7-bd2b-d77d9cb3dfd6" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "b94f549c-89e0-40d7-bd2b-d77d9cb3dfd6",
+        "tb_ekle_soru" : " kolaysorularım",
+        "tb_soru_cevap1" : "as ",
+        "tb_soru_cevap2" : "asd ",
+        "tb_soru_cevap3" : "asdas ",
+        "tb_soru_dogru_cevap" : " cevabım"
+      },
+      "edfff957-8ef8-417c-878b-abf6e0eb709e" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "edfff957-8ef8-417c-878b-abf6e0eb709e",
+        "tb_ekle_soru" : "kolaym",
+        "tb_soru_cevap1" : "DEQQFQF",
+        "tb_soru_cevap2" : "DE",
+        "tb_soru_cevap3" : "DQ",
+        "tb_soru_dogru_cevap" : "dogrudeneme"
+      }
+    },
+    "orta_sorular" : {
+      "17ee63a0-c8a6-4668-b600-b14dc0f19ce8" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "17ee63a0-c8a6-4668-b600-b14dc0f19ce8",
+        "tb_ekle_soru" : " orta",
+        "tb_soru_cevap1" : "sd ",
+        "tb_soru_cevap2" : "ds ",
+        "tb_soru_cevap3" : "d ",
+        "tb_soru_dogru_cevap" : " dddddddd"
+      },
+      "19708b88-8afa-4099-ac22-1eec335e477f" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "19708b88-8afa-4099-ac22-1eec335e477f",
+        "tb_ekle_soru" : " orta",
+        "tb_soru_cevap1" : "asda ",
+        "tb_soru_cevap2" : "asdasd ",
+        "tb_soru_cevap3" : "asdqq ",
+        "tb_soru_dogru_cevap" : " dogrucvp"
+      },
+      "518c8082-7d09-4265-9ee3-f54e1463bd13" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "518c8082-7d09-4265-9ee3-f54e1463bd13",
+        "tb_ekle_soru" : " ortasorum",
+        "tb_soru_cevap1" : " asd",
+        "tb_soru_cevap2" : "asdas ",
+        "tb_soru_cevap3" : "asdasd ",
+        "tb_soru_dogru_cevap" : " dogrucevabım"
+      },
+      "7a69a400-a1ae-4652-92cd-d32609950ae5" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "7a69a400-a1ae-4652-92cd-d32609950ae5",
+        "tb_ekle_soru" : " orta",
+        "tb_soru_cevap1" : "asdasd ",
+        "tb_soru_cevap2" : "sadaqsd ",
+        "tb_soru_cevap3" : "asdasaaqd ",
+        "tb_soru_dogru_cevap" : " dogru"
+      },
+      "8cfa8054-961f-4617-9943-cbe9de037ec8" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "8cfa8054-961f-4617-9943-cbe9de037ec8",
+        "tb_ekle_soru" : " orta",
+        "tb_soru_cevap1" : "qa ",
+        "tb_soru_cevap2" : "qasd ",
+        "tb_soru_cevap3" : "qwe ",
+        "tb_soru_dogru_cevap" : " right"
+      },
+      "bf233292-3fe9-470d-b8d8-549e60b9b8af" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "bf233292-3fe9-470d-b8d8-549e60b9b8af",
+        "tb_ekle_soru" : " orta",
+        "tb_soru_cevap1" : "wqq ",
+        "tb_soru_cevap2" : "wqa ",
+        "tb_soru_cevap3" : "wqs ",
+        "tb_soru_dogru_cevap" : "dogru"
+      },
+      "e16fa8dd-97f0-4141-9b38-4e1e95c3fea9" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "e16fa8dd-97f0-4141-9b38-4e1e95c3fea9",
+        "tb_ekle_soru" : " ortasorum",
+        "tb_soru_cevap1" : "qwe ",
+        "tb_soru_cevap2" : "qws ",
+        "tb_soru_cevap3" : "qwa ",
+        "tb_soru_dogru_cevap" : " dogruu"
+      }
+    },
+    "zor_sorular" : {
+      "2fb0560c-3331-42c1-87f9-6fa7c99cd2c0" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "2fb0560c-3331-42c1-87f9-6fa7c99cd2c0",
+        "tb_ekle_soru" : "zorsoru",
+        "tb_soru_cevap1" : "a",
+        "tb_soru_cevap2" : "ab",
+        "tb_soru_cevap3" : "ac",
+        "tb_soru_dogru_cevap" : " doru"
+      },
+      "5c9c0e37-cf30-4378-a0af-8036c17c00ac" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "5c9c0e37-cf30-4378-a0af-8036c17c00ac",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "d asd",
+        "tb_soru_cevap2" : "d ",
+        "tb_soru_cevap3" : "d ",
+        "tb_soru_dogru_cevap" : "doru"
+      },
+      "79b54af1-0f88-4cf3-9a3a-658f3469fec9" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "79b54af1-0f88-4cf3-9a3a-658f3469fec9",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "a ",
+        "tb_soru_cevap2" : "a ",
+        "tb_soru_cevap3" : "a ",
+        "tb_soru_dogru_cevap" : " doru"
+      },
+      "8857d0a4-273c-4412-9c16-3e82a71999a4" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "8857d0a4-273c-4412-9c16-3e82a71999a4",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "da ",
+        "tb_soru_cevap2" : "dd",
+        "tb_soru_cevap3" : "db",
+        "tb_soru_dogru_cevap" : " dogrru"
+      },
+      "8e5335b4-fdec-48ec-b8ff-3c77e60641d8" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "8e5335b4-fdec-48ec-b8ff-3c77e60641d8",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : " w",
+        "tb_soru_cevap2" : " ww",
+        "tb_soru_cevap3" : " wasd",
+        "tb_soru_dogru_cevap" : " dogru"
+      },
+      "9d5b30ef-dd65-4fa4-b22b-63f619af5bfd" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "9d5b30ef-dd65-4fa4-b22b-63f619af5bfd",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : " aw",
+        "tb_soru_cevap2" : "wqq ",
+        "tb_soru_cevap3" : "w ",
+        "tb_soru_dogru_cevap" : " doqru"
+      },
+      "a53d9856-f5ae-4831-a858-5d9ad8d88ad9" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "a53d9856-f5ae-4831-a858-5d9ad8d88ad9",
+        "tb_ekle_soru" : " zorsssoru",
+        "tb_soru_cevap1" : "wa ",
+        "tb_soru_cevap2" : "w ",
+        "tb_soru_cevap3" : "wq",
+        "tb_soru_dogru_cevap" : " dogwru"
+      },
+      "b987d28f-ba27-4026-acaf-e4e7fc81091f" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "b987d28f-ba27-4026-acaf-e4e7fc81091f",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "wawsd ",
+        "tb_soru_cevap2" : "wasd ",
+        "tb_soru_cevap3" : "wqe ",
+        "tb_soru_dogru_cevap" : " doqeru"
+      },
+      "e815a5c2-ee8c-43f9-a8a6-de313ed003e9" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "e815a5c2-ee8c-43f9-a8a6-de313ed003e9",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "as ",
+        "tb_soru_cevap2" : "ab ",
+        "tb_soru_cevap3" : "ae ",
+        "tb_soru_dogru_cevap" : " domru"
+      },
+      "ea0a4aa1-995c-4990-91ce-146fb5b26c69" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "ea0a4aa1-995c-4990-91ce-146fb5b26c69",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "dasd ",
+        "tb_soru_cevap2" : "d ",
+        "tb_soru_cevap3" : "db ",
+        "tb_soru_dogru_cevap" : " doru"
+      },
+      "ea1e78b9-965e-4c34-b146-4119b7da2942" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "ea1e78b9-965e-4c34-b146-4119b7da2942",
+        "tb_ekle_soru" : " zorsoru",
+        "tb_soru_cevap1" : "w55 ",
+        "tb_soru_cevap2" : "w23 ",
+        "tb_soru_cevap3" : "w12 ",
+        "tb_soru_dogru_cevap" : " doru"
+      },
+      "fafc5feb-9575-4a66-8be4-c4ef51a300e7" : {
+        "ders" : "Veri Yapıları",
+        "ekleyenhocamail" : "abdulkadir@gmail.com",
+        "soru_id" : "fafc5feb-9575-4a66-8be4-c4ef51a300e7",
+        "tb_ekle_soru" : " deneme",
+        "tb_soru_cevap1" : "asdw ",
+        "tb_soru_cevap2" : "wa ",
+        "tb_soru_cevap3" : "w ",
+        "tb_soru_dogru_cevap" : " dogruu"
+      }
+    }
+  },
+  "hocalar" : {
+    "7c2d7830-c715-403c-b25d-3c407ed97580" : {
+      "adsoyad" : "Salih Görgünoglu",
+      "brans" : "VERI",
+      "email" : "sgor@gmail.com",
+      "hoca_id" : "7c2d7830-c715-403c-b25d-3c407ed97580",
+      "sifre" : "123456"
+    },
+    "92ad7f2c-6501-40db-8d19-d1e08952a3d9" : {
+      "adsoyad" : "Bedirhan Aydn",
+      "brans" : "DENEME",
+      "email" : "denemetest12340@gmail.com",
+      "hoca_id" : "92ad7f2c-6501-40db-8d19-d1e08952a3d9",
+      "sifre" : "123456"
+    },
+    "f41f95c2-ba4e-499b-88f9-933bb431a104" : {
+      "adsoyad" : "ABDULKADIR",
+      "brans" : "SQL",
+      "email" : "abdulkadir@gmail.com",
+      "hoca_id" : "f41f95c2-ba4e-499b-88f9-933bb431a104",
+      "sifre" : "232323"
+    }
+  },
+  "ogrenci_puan" : {
+    "184410046" : {
+      "ders" : "Veri Yapıları",
+      "numara" : "184410046",
+      "ogradsoyad" : "Ahmet Aydin",
+      "puan" : 90
+    }
+  },
+  "ogrenciler" : {
+    "184410046" : {
+      "bolum" : "Bilgisayar Mühendisligi",
+      "numara" : "184410046",
+      "ogradsoyad" : "Ahmet Aydin",
+      "sifre" : "159753"
+    }
+  },
+  "sinavlar" : {
+    "Veri Yapıları" : {
+      "baslamaSaati" : 1,
+      "bitisSaati" : 2,
+      "ders" : "Veri Yapıları",
+      "ekleyenhocamail" : "abdulkadir@gmail.com",
+      "kaçKolay" : "5",
+      "kaçOrta" : "5",
+      "kaçZor" : "10",
+      "kolaysoruPuan" : "5",
+      "ortasoruPuan" : "5",
+      "sinavSuresi" : "5",
+      "zorsoruPuan" : "5"
+    }
+  }
+}

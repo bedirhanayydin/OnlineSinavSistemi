@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OgrenciHocaİslemSecmeEkrani">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        app:srcCompat="@drawable/admin_panel_background" />
+
+    <Button
+        android:id="@+id/btnhoca"
+        android:layout_width="366dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/yesil"
+        android:text="Hoca İşlemleri"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/btnogrencii"
+        android:layout_width="366dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/yesil"
+        android:text="Öğrenci İşlemleri"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+
+</LinearLayout>

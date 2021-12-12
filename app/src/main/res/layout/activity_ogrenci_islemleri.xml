@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".OgrenciIslemleri">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <EditText
+        android:id="@+id/txtad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ad Soyad giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/txtbölüm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bölüm giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"/>
+
+    <EditText
+        android:id="@+id/txtnumara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Öğrenci Numaranızı giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+
+    <EditText
+        android:id="@+id/txtsifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şifre giriniz"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp" />
+
+
+    <ListView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

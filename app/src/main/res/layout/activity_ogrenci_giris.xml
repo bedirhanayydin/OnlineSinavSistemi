@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/deneme"
+    tools:context=".OgrenciGiris">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="193dp"
+            android:layout_height="182dp"
+            android:background="@drawable/login"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/et_numara"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deneme"
+            android:hint="Öğrenci Numarası"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_sifre"
+            android:layout_width="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:background="@drawable/deneme"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="#FFFFFF">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_below="@+id/tb_sifre_giris"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Giriş"
+        android:textSize="24sp"
+        app:backgroundTint="?android:attr/colorFocusedHighlight" />
+
+</LinearLayout>
+

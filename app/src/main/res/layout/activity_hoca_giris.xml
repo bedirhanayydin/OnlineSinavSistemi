@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".HocaGiris">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tb_email_giris"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Şifre"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_view_avatar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="E Mail"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/tb_sifre_giris"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPersonName"
+        android:password="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="263dp"
+        android:layout_height="111dp"
+        android:layout_below="@+id/tb_sifre_giris"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Giriş"
+        android:textSize="24sp"
+        app:backgroundTint="?android:attr/statusBarColor" />
+
+    <EditText
+        android:id="@+id/tb_email_giris"
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <ImageView
+        android:id="@+id/img_view_avatar1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/login" />
+
+</RelativeLayout>

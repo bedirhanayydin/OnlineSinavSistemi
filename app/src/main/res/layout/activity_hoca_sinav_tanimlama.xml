@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070000"
+    tools:context=".HocaSinavTanimlama">
+
+
+    <TextView
+        android:id="@+id/sinavSüre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="383dp"
+        android:text="Sınav Süresi(dk):"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sinavSuresi"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="380dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner_ders"
+        android:layout_width="331dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="668dp"
+        android:scrollbarSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="582dp"
+        android:text="Sınav Başlama Saati:"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/timePickerBaslama"
+        android:layout_width="203dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="558dp"
+        android:background="@color/cardview_dark_background"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="472dp"
+        android:text="Sınav Bitiş Saati:"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <NumberPicker
+        android:id="@+id/timePickerBitis"
+        android:layout_width="203dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="456dp"
+        android:background="@color/cardview_dark_background"
+        android:timePickerMode="spinner" />
+
+    <TextView
+        android:id="@+id/spinner_ders_sec"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="start"
+        android:layout_marginBottom="673dp"
+        android:text="Ders:"
+        android:textAlignment="textStart"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/btn_sınav_ekle"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/tb_soru_cevap3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="5dp"
+        android:text="SINAV EKLE"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="324dp"
+        android:text="Kaç Adet Kolay Soru Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="272dp"
+        android:text="Kaç Adet Orta Soru Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="222dp"
+        android:text="Kaç Adet Zor Soru Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+
+    <EditText
+        android:id="@+id/txtkaçZor"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="221dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtkaçKolay"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="312dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtkaçOrta"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="267dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/kolaysoruPuan"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="170dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ortasoruPuan"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="123dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/zorsoruPuan"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="175dp"
+        android:text="Kolay Sorular Kaç Puan Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="133dp"
+        android:text="Orta Sorular Kaç Puan Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:text="Zor Sorular Kaç Puan Olsun?"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+</RelativeLayout>

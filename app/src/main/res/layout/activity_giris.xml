@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Giris">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Online Sınav Sistemi"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnadmin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/yesil"
+        android:text="Sistem Yöneticisi Giriş"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/btnogretmen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/yesil"
+        android:text="öğretmen giriş"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/btnogrenci"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/yesil"
+        android:text="öğrenci giriş"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_green_dark" />
+
+    <Button
+        android:id="@+id/btncikisyap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/black"
+        android:text="çıkış yap"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/black" />
+</LinearLayout>
