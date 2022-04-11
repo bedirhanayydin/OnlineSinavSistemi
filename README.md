@@ -1,3 +1,5 @@
+**Java ve Firebase kullanılarak yaptığım staj projem.**            
+
                       Açık Öğretim Fakültesi Online Sınav Sistemi
 Makale Değerlendirme Sistemi sisteminde yetki ve roller şu şekildedir:
 1. Sistem yöneticisi sadece masa üstü uygulama üzerinden sistemi kullanabilecektir.
